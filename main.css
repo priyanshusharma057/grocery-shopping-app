@@ -54,7 +54,6 @@ body {
     padding-top: 0;
     border-radius: 4px;
 }
-
 .hero {
     margin-bottom: 2rem;
 }
@@ -130,6 +129,10 @@ body {
     margin-right: auto;
     margin-bottom: 2rem;
 }
+.clickable
+{
+  cursor: pointer;
+}
 
 .search-bar form {
     display: flex;
@@ -140,6 +143,7 @@ body {
    flex: 1;
    margin-right: 1rem;
 }
+
 .bestDish .button {
     display: inline-block;
     background-color:#cb202d;
@@ -148,27 +152,19 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-.red{
-        background: #cb202d;
-    color: #fff;
-    font-weight: 400;
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.todo_list
+{
+    position: relative;
+    bottom: 350px;
+    left: 200px;
+
 }
-#getIngredients-button{
-
-        position: absolute;
-    margin-left: 172px;
-    margin-top: -27px
+.ing
+{
+position: relative;
+  top: 50px;
 }
+.completed{
 
-#getIngredients-button2{
-
-        position: absolute;
-        margin-left: 296px;
-        margin-top: -27px;
+    text-decoration: line-through;
 }
